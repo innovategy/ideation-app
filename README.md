@@ -1,9 +1,11 @@
+<br/><br/>
+
 <p align="center"><a href="https://innovategy.com" target="_blank"><img src="https://raw.githubusercontent.com/innovategy/common/main/brand-material/logo-positive.svg" width="400"></a></p>
 
 
 ## About Ideation Tool
 
-Innovategy Ideation Tool helps with the collection, enrichment, rating, and prioritization of ideas. We believe having access to simple to use tools can enable established businesses, startups, and accelerators worldwide to ideate and innovate better. Innotavety Ideation Tool has the following key features:
+Ideation Tool helps with the collection, enrichment, rating, and prioritization of ideas. We believe having access to simple to use tools can enable established businesses, startups, and accelerators worldwide to ideate and innovate better. Innotavety Ideation Tool has the following key features:
 
 - Idea collection wizard with realtime AI powered assistance
 - Similarity finder with background patent and web search 
@@ -12,19 +14,19 @@ Innovategy Ideation Tool helps with the collection, enrichment, rating, and prio
 - Timestamping and certificate generation on public blockchain
 - Opinion gathering form and short links
 - Quadratic voting 
-- Team management  
+- Team management
 
-## Laravel Sponsors
+## Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Ideation Tool development. If you are interested in becoming a sponsor, please visit the Innovategy [Patreon page](https://patreon.com/innovategy).
+We would like to extend our thanks to the following sponsors for funding Ideation Tool development. If you are interested in becoming a sponsor, please visit the Innovategy's [Patreon page](https://patreon.com/innovategy).
 
-### Current Premium Partners
+### Current Key Sponsors
 
 - **[Innovategy Oy](https://innovategy.fi/)**
 
 ## Contributing
 
-Thank you for considering contributing to the Ideation Tool! You can reach out to Sina Ghazi 
+Thank you for considering contributing to the Ideation Tool! You can reach out to [Sina Ghazi] (mailto:hi@innovategy.com)
 
 ## Security Vulnerabilities
 
