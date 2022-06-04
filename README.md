@@ -2,6 +2,7 @@
 
 <p align="center"><a href="https://innovategy.com" target="_blank"><img src="https://raw.githubusercontent.com/innovategy/common/main/brand-material/logo-positive.svg" width="400"></a></p>
 
+<br/><br/>
 
 ## About Ideation Tool
 
@@ -20,13 +21,13 @@ Ideation Tool helps with the collection, enrichment, rating, and prioritization 
 
 We would like to extend our thanks to the following sponsors for funding Ideation Tool development. If you are interested in becoming a sponsor, please visit the Innovategy's [Patreon page](https://patreon.com/innovategy).
 
-### Current Key Sponsors
+### Key Sponsors
 
 - **[Innovategy Oy](https://innovategy.fi/)**
 
 ## Contributing
 
-Thank you for considering contributing to the Ideation Tool! You can reach out to [Sina Ghazi] (mailto:hi@innovategy.com)
+Thank you for considering contributing to the Ideation Tool! You can reach out to [Sina Ghazi](mailto:hi@innovategy.com)
 
 ## Security Vulnerabilities
 
