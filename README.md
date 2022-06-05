@@ -72,9 +72,8 @@ sail up
 You should now be able to use the ideation app on http://localhost and have database access to Postgresql on port 5432
 
 ## Data Model
-Following is the data model diagram of ideation app. 
-
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/innovategy-oy/diagrams/ideation-app/embed"></iframe>
+Following is the link to data model diagram of ideation app: 
+[Data Model](https://drawsql.app/innovategy-oy/diagrams/ideation-app)
 
 ## Contributing
 
