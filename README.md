@@ -25,13 +25,59 @@ We would like to extend our thanks to the following sponsors for funding Ideatio
 
 - **[Innovategy Oy](https://innovategy.fi/)**
 
+## Local development environment setup 
+
+To setup a local development environment, you would need [Docker Desktop](https://www.docker.com/products/docker-desktop/) and [Git](https://git-scm.com/) installed on your local machine.
+
+### Step 1 
+Clone this repository on your local machine using the following command. 
+
+~~~bash
+git clone git@github.com:innovategy/ideation-app.git
+~~~
+
+### Step 2
+Goto ideation-app folder 
+
+~~~bash
+cd ideation-app
+~~~
+
+### Step 3
+Install all dependencies using the following helper image from docker. 
+
+~~~bash
+docker run --rm \
+    -u "$(id -u):$(id -g)" \    
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php81-composer:latest \
+    composer install
+~~~
+
+### Step 4
+Create an alias for [Laravel Sail](https://laravel.com/docs/9.x/sail) 
+
+~~~bash
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+~~~
+
+### Step 5
+Fire up the complete stack using following sail command 
+
+~~~bash
+sail up 
+~~~
+
+You should now be able to use the ideation app on http://localhost and have database access to Postgresql on port 5432
+
 ## Contributing
 
-Thank you for considering contributing to the Ideation Tool! You can reach out to [Sina Ghazi](mailto:hi@innovategy.com)
+Thank you for considering contributing to the Ideation Tool! You can reach out to [hi@innovategy.com](mailto:hi@innovategy.com)
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to [hi@innovategy.com](mailto:hi@innovategy.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Ideation Tool, please send an e-mail to [security@innovategy.com](mailto:security@innovategy.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
