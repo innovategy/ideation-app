@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace IdeationApp\Providers;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -30,10 +30,10 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->routes(function () {
             Route::middleware('api')
-                ->prefix('api')
                 ->group(base_path('routes/api.php'));
 
             Route::middleware('web')
+                ->prefix('web')
                 ->group(base_path('routes/web.php'));
         });
     }

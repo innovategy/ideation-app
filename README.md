@@ -28,7 +28,7 @@ We would like to extend our thanks to the following sponsors for funding Ideatio
 
 ### News
 
- - Innovategy's Ideation Tool has received $6,500 from the AWS Activate 
+ - Ideation App has received $6,500 from the AWS Activate 
 
 ## Local development environment setup 
 

@@ -14,11 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//group of routes for the api that are not protected
+Route::group(['prefix' => 'v1', 'namespace' => 'IdeationApp\Http\Controllers'], function () {
 
-Route::get('/logic', 'App\Http\Controllers\LogicController@index');
+    Route::get('/logic', 'LogicController@index');
 
-Route::get('/', function () {
-    return response()->json([
-        'message' => 'Welcome to the API',
-    ]);
+    Route::get('/', function () {
+        return response()->json([
+            'message' => 'Welcome to the IdeationApp API version 1',
+        ]);
+    });
+
 });
+
+
+
+
+
