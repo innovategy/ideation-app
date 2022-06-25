@@ -24,6 +24,11 @@ We would like to extend our thanks to the following sponsors for funding Ideatio
 ### Key Sponsors
 
 - **[Innovategy Oy](https://innovategy.fi/)**
+- **[Start Hub](https://starthub.fi/)**
+
+### News
+
+ - Innovategy's Ideation Tool has received $6,500 from the AWS Activate 
 
 ## Local development environment setup 
 
