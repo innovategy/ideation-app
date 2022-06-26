@@ -1,0 +1,4 @@
+FROM nginx:alpine
+
+COPY docker/nginx/nginx.conf  /etc/nginx/conf.d/app.conf
+COPY . /var/www
